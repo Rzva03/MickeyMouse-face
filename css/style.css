@@ -120,3 +120,47 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+/*Media Screen Tablet*/
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    height: 100%;
+  }
+  .container {
+    width: 35vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container-ears {
+    margin-top: 4rem;
+  }
+  .container-earsLeft,
+  .container-earsRight {
+    background-color: black;
+    width: 30%;
+    height: 15vh;
+  }
+}
+/*Media Screen */
+@media screen and (min-width: 1024px) {
+  html,
+  body {
+    height: 100vh;
+  }
+  .container {
+    width: 20vw;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container-ears {
+    margin-top: 3rem;
+  }
+  .container-earsLeft,
+  .container-earsRight {
+    background-color: black;
+    width: 30%;
+    height: 15vh;
+  }
+}
